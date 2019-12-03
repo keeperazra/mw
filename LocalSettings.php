@@ -27,6 +27,7 @@ $wgSitename = "SYS255";
 ## (like /w/index.php/Page_title to /wiki/Page_title) please see:
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
 $wgScriptPath = "/mw";
+$wgArticlePath = "/wiki/$1";
 
 ## The protocol and server name to use in fully-qualified URLs
 $wgServer = "http://mw2.alex.local";
@@ -36,7 +37,7 @@ $wgResourceBasePath = $wgScriptPath;
 
 ## The URL path to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
-$wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
+$wgLogo = "$wgResourceBasePath/resources/assets/mediawiki.png";
 
 ## UPO means: this is also a user preference option
 
