@@ -30,7 +30,7 @@ $wgScriptPath = "/mw";
 $wgArticlePath = "/wiki/$1";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://mw2.alex.local";
+$wgServer = "http://wiki.alex.local";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
